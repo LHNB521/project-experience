@@ -5,11 +5,11 @@ import App from './App.vue'
 import { store } from './store'
 import router from './router'
 
-import { setupPermission } from './plugins/permission'
+// import { setupPermission } from './plugins/permission'
 
 const app = createApp(App)
 
-setupPermission()
+// setupPermission()
 
 app.use(store)
 app.use(router)
